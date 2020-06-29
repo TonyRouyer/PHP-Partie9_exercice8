@@ -7,6 +7,7 @@
 </head>
 <body>
     <?php 
+        //affiche la date au timestamp -22jours
         $passeDate = date('d-m-Y', strtotime('-22 days'));
     ?>
     <p><?= 'Il y a 22 jours nous etions le  ' . $passeDate ?></p>
